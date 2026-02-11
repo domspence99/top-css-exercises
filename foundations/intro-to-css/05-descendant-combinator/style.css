@@ -1,1 +1,39 @@
 /* Add CSS Styling */
+/*
+DESCENDANT SELECTORS
+Are in the form .parent .child
+*/
+
+/* 1. Using classes */
+/* This says, any element that has a text class that is inside a container will 
+have these style */
+/*
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* 2. Using elements */
+/* This says any paragraph element that is inside of a div will have these styles */
+/*
+div p {
+    background-color: rgb(93, 0, 255);
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* 3. Using a combination of elements and classes */
+/* This says any element with the text class that is inside of a div will be styled */
+div .text {
+    background-color: rgb(68, 255, 0);
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
