@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+/*
+1. GROUPED SELECTOR
+Group common styles 
+*/
+.black-button,
+.yellow-button {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+/* 2. Make individual changes later*/
+.black-button {
+    background-color: black;
+    color: white;
+}
+
+.yellow-button {
+    background-color: yellow;
+}
