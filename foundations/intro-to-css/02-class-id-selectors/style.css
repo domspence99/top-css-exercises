@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+/* 1. Add a class for all odd elements */
+.odd {
+    background-color: rgb(234, 89, 120);
+    /*Specific fonts in quotes, seperated by a comma and a generic family name backup*/
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif; 
+}
+/* Add a class for big text */
+.big-text {
+    font-size: 24px;
+}
+
+/* Add an ID selector for element id-one */
+#id-one {
+    color: rgb(55, 0, 255);
+    font-size: 36px;
+}
+
+/* Add an ID selector for element id-two */
+#id-two {
+    background-color: rgb(98, 231, 3);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Things to note after checking solution
+This example can be done better
+ID-two contains a style that is already alone in a class
+i.e element 4 in the html could use the id-two along with the big-text class.
+here we have the same thing in 2 different places
+*/
