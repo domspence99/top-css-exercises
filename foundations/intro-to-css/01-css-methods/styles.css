@@ -1,0 +1,8 @@
+/*Type selector: applies these styles to ALL divs */
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px; /*Include px*/
+    text-align: center; 
+    font-weight: bold;
+}
