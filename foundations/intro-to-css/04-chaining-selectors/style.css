@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+/* CHAINING SELECTORS 
+Use chaned selectors when you want to specifically target an element with 1 common 
+class and 1 unique class
+
+*Can also be used to chain a common class and unique id as .class#id*/
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/* Doesn't matter which way round it is
+.avatar.distorted or .distorted.avatar
+*/
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
